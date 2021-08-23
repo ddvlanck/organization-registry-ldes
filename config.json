@@ -1,0 +1,11 @@
+{
+  "domainName" : "",
+  "database": {
+    "username": "postgres",
+    "password": "dev",
+    "host": "localhost",
+    "port": "5432",
+    "database": "organization-registry"
+  },
+  "feed": "https://api.wegwijs.vlaanderen.be/v1/search/organisations"
+}

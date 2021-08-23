@@ -1,0 +1,41 @@
+{
+  "name": "organization-registry-ldes",
+  "version": "1.0.0",
+  "description": "Linked Data Event Stream of the Flemish Organization Registry",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:ts",
+    "build:ts": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddvlanck/organization-registry-ldes.git"
+  },
+  "keywords": [
+    "organization",
+    "registry",
+    "ldes",
+    "semantic",
+    "data"
+  ],
+  "author": "Dwight Van Lancker - Digital Flanders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddvlanck/organization-registry-ldes/issues"
+  },
+  "homepage": "https://github.com/ddvlanck/organization-registry-ldes#readme",
+  "devDependencies": {
+    "@types/node": "^16.6.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "@types/pg": "^8.6.1",
+    "commander": "^8.1.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.7.1",
+    "sleep": "^6.3.0",
+    "sleep-promise": "^9.1.0"
+  }
+}
